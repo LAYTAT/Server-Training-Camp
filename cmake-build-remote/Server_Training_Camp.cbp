@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Server_Training_Camp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Networkdev\;CMake Files\Networkdev\Server\;CMake Files\Networkdev\Client\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.pYMiq6eLVC/cmake-build-remote"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.pYMiq6eLVC/cmake-build-remote"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.pYMiq6eLVC/cmake-build-remote"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/tmp/tmp.pYMiq6eLVC/Networkdev/bin/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.pYMiq6eLVC/Networkdev/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../include"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../protocal"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../components"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../systems"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include/mysql++"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/tmp/tmp.pYMiq6eLVC/Networkdev/bin/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.pYMiq6eLVC/Networkdev/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../include"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../protocal"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../components"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/../systems"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include/mysql++"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/tmp/tmp.pYMiq6eLVC/Networkdev/bin/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.pYMiq6eLVC/Networkdev/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Client/../include"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Client/../protocal"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/tmp/tmp.pYMiq6eLVC/Networkdev/bin/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.pYMiq6eLVC/Networkdev/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Client/../include"/>
+					<Add directory="/tmp/tmp.pYMiq6eLVC/Networkdev/Client/../protocal"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.pYMiq6eLVC/cmake-build-remote/Networkdev/Client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Client/SocketClient.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Client/main.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Network/MesgHead.cpp">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Network/baselink.cpp">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Network/buffer.cpp">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/CacheManager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/CacheMgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/ComponentsMgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/EntityMgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/EventSystem.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/ItemsMgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/MySqlMgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/Player.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/PlayerMgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/SocketServer.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/main.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/protocal/GameSpec.pb.cc">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/protocal/MSG_PLAYER_MOVE.pb.cc">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/protocal/MSG_PLAYER_REGISTER.pb.cc">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/protocal/MsgID.pb.cc">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/protocal/MsgTest.pb.cc">
+			<Option target="server"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/systems/BagSystem.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/systems/BagSystem.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/systems/TransformSystem.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/systems/TransformSystem.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Networkdev\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Networkdev\Server\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.pYMiq6eLVC/Networkdev/Client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Networkdev\Client\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

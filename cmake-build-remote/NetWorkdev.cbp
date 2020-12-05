@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="NetWorkdev" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\Networkdev\;CMake Files\Networkdev\Server\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/tmp/tmp.iQhVLuTLbu/cmake-build-remote" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/tmp/tmp.iQhVLuTLbu/cmake-build-remote" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/tmp/tmp.iQhVLuTLbu/cmake-build-remote" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="server">
+         <Option output="/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/bin/server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../components" />
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../include" />
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../protocal" />
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../systems" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/mysql" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/mysql++" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 server" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="server/fast">
+         <Option output="/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/bin/server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../components" />
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../include" />
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../protocal" />
+            <Add directory="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/../systems" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/mysql" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/mysql++" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/backward" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../include/c++/8.2.0/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include" />
+            <Add directory="/usr/local/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 server/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.iQhVLuTLbu/cmake-build-remote/Networkdev/Server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Network/MesgHead.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Network/baselink.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Network/buffer.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/CacheMgr.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/ComponentsMgr.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/EntityMgr.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/EventSystem.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/ItemsMgr.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/MySqlMgr.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/Player.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/PlayerMgr.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/SocketServer.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/main.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/protocal/GameSpec.pb.cc">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/protocal/MSG_PLAYER_MOVE.pb.cc">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/protocal/MSG_PLAYER_REGISTER.pb.cc">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/protocal/MsgID.pb.cc">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/protocal/MsgTest.pb.cc">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/systems/BagSystem.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/systems/TransformSystem.cpp">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/systems/BagSystem.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/systems/TransformSystem.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/tmp/tmp.iQhVLuTLbu/Networkdev/Server/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Networkdev\Server\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
