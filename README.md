@@ -7,4 +7,8 @@ Personal project, take it if needed.
 2. Updates socket managerment.
 3. A Buffer manager with less system overhead.
 4. Epoll and socket connections wrapped up for better usage.
-5. A long to-do list.
+5. Use google protobuf for btw-server-comms.
+6. And there is a very long to-do list, so unlimited possibilities. :)
+
+## Usage 
+Use the cmakelists.
